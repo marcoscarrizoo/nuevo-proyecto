@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+}
+
+.header1 {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list1 {
+  display: flex;
+  gap: 50px;
+  font-size: 15px;
+}
+
+.list1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.list2 {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.section2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.section3 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.section4 {
+  border: 1px solid black;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+.div1 {
+  border: 1px solid black;
+  padding: 30px;
+  width: 280px;
+  text-align: center;
+}
+.div2 {
+  border: 1px solid black;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 20px;
+}
+footer {
+  background-color: #f0f0f0; /* Color de fondo del footer */
+  padding: 10px; /* Espaciado interior para mejorar la apariencia */
+  position: absolute; /* Opcional: utiliza "fixed" si quieres que el footer siempre esté visible */
+  bottom: 0; /* Coloca el footer en la parte inferior */
+  width: 100%; /* Asegura que el footer ocupe el ancho completo de la página */
+}
